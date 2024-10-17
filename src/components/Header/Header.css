@@ -1,0 +1,62 @@
+.Header{
+    background-image:url("../../picture/shutterstock_318248558-scaled.webp") ;
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+}
+.search{
+    position: absolute;
+    top: 6px;
+    left:54.7rem;
+    background-color: orange;
+    color: white;
+    border: 2px;
+    height: 2.6em;
+    
+    border-radius: 0px 20px 20px 0px;
+    width: 4em;
+    padding-top: 10px;
+}
+.search:hover{
+    cursor: pointer;
+    width: 4.3rem;
+    background-color: rgb(207, 135, 1);
+}
+.search:focus{
+    outline: none;
+}
+input::placeholder{
+    color: rgb(58, 57, 57);
+}
+.input input{
+    width: 26em;
+    height: 2.3em;
+    font-size: 15px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+
+}
+input:focus{
+    outline: none;
+}
+.input{
+    position: absolute;
+    left: 30rem;
+    padding-top: 6px;
+}
+.resultinholiday p{
+    color: white;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    right: 15em;
+}
+.resultinholiday{
+    position: absolute;
+}
+strong{
+    color: rgb(38, 212, 32);
+}
+
