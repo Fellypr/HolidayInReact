@@ -1,8 +1,35 @@
-# React + Vite
+# Holiday Country 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application that allows users to search for public holidays in different countries based on their ISO code.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **Axios**: HTTP client for making requests to the holiday API.
+- **Nager.Date API**: Public API to retrieve international holidays.
+- **CSS**: Used for styling the interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Features
+- **Country code search**: Enter the country’s ISO code (e.g., `BR` for Brazil).
+- **Search with Enter key or button click**: Perform the search either by pressing **Enter** or clicking the search button.
+- **Error handling with code lookup**: If an invalid code is provided, the system provides a link to the full list of ISO codes.
+
+## 📚 References
+- [Nager.Date Holiday API](https://date.nager.at/)
+- [Country Code List](https://manualdemarcas.inpi.gov.br/projects/manual-de-marcas-2-edicao-1-revisao/wiki/Siglas_de_pa%C3%ADses_e_organiza%C3%A7%C3%B5es)
+
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/holiday-country.git
+cd holiday-country
+````
+### 2. Install dependencies
+```bash
+npm install
+````
+### 3. Run the project
+````bash
+npm run dev
+````
+
